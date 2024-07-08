@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "npm": "^10.8.1"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   }
 }
